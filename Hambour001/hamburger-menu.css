@@ -6,7 +6,8 @@
   margin: 0;
   padding: 0;
   width: 5vw;
-  height: 50px;
+  height: 40px;
+  margin-bottom:6px;
   font-size: 0;
   text-indent: -9999px;
   -webkit-appearance: none;
@@ -20,7 +21,7 @@
           transition: background 0.3s;
 }
 @media screen and (max-width:900px){
-	.c-hamburger {
+	.c-hamburger {	
 		width: 10vw;
 	}
 	.dvTableTopRowCellMiddle { width: 82%;} 
@@ -115,14 +116,14 @@
 
 .active  .c-hamburger--htla span::before {
   top: 0;
-  -webkit-transform:  translateX(34px) translateY(0px) rotate(45deg);
-      -ms-transform:  translateX(34px) translateY(0px) rotate(45deg);
-          transform: translateX(34px) translateY(0px) rotate(45deg);
+  -webkit-transform: translateX(20px) translateY(1px) rotate(45deg);
+      -ms-transform:  translateX(20px) translateY(1px) rotate(45deg);
+          transform: translateX(20px) translateY(1px) rotate(45deg);
 }
 
 .active  .c-hamburger--htla span::after {
   bottom: 0;
-  -webkit-transform: translateX(35px) translateY(-2px) rotate(-45deg);
-      -ms-transform: translateX(35px) translateY(-2px) rotate(-45deg);
-          transform: translateX(35px) translateY(-2px) rotate(-45deg);
+  -webkit-transform: translateX(21px) translateY(-1px) rotate(-45deg);
+      -ms-transform: translateX(21px) translateY(-1px) rotate(-45deg);
+          transform:  translateX(21px) translateY(-1px) rotate(-45deg);
 }
