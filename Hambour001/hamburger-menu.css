@@ -120,7 +120,7 @@
       -ms-transform:  translateX(20px) translateY(1px) rotate(45deg);
           transform: translateX(20px) translateY(1px) rotate(45deg);
 }
-
+/**/
 .active  .c-hamburger--htla span::after {
   bottom: 0;
   -webkit-transform: translateX(21px) translateY(-1px) rotate(-45deg);
