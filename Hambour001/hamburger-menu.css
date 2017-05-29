@@ -5,7 +5,7 @@
   overflow: hidden;
   margin: 0;
   padding: 0;
-  width: 5vw;
+  width: 100%;
   height: 40px;
   margin-bottom:6px;
   font-size: 0;
@@ -20,30 +20,41 @@
   -webkit-transition: background 0.3s;
           transition: background 0.3s;
 }
-@media screen and (max-width:900px){
-	.c-hamburger {	
-		width: 10vw;
+@media screen and (min-width: 1000px) {
+	.dvTableTopRowCellRight,.dvTableTopRowCellLeft  {
+		width:3.5%
+		
 	}
-	.dvTableTopRowCellMiddle { width: 82%;} 
+	.dvTableTopRowCellMiddle { width: 93%; } 
 }
-@media screen and (min-width:900px){
-	
-	.dvTableTopRowCellMiddle { width: 89%;} 
+@media screen and (min-width: 600px) and (max-width: 1000px)  {
+	.dvTableTopRowCellRight,.dvTableTopRowCellLeft  {
+		width:5%
+		
+	}
+	.dvTableTopRowCellMiddle { width: 90%;} 
+}
+@media screen and (max-width: 600px) {
+	.dvTableTopRowCellRight,.dvTableTopRowCellLeft  {
+		width:10%
+		
+	}
+	.dvTableTopRowCellMiddle { width: 80%;} 
 }
 .c-hamburger:focus {
   outline: none;
 }
 
 .c-hamburger span {
-  display: block;
-  position: absolute;
-  top: 20px;
-  left: 14px;
-  right: 6px;
-  height: 4px;
-  background: black;
-  border-radius:5px;
-  width:40px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: initial;
+    right: 4px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+        width: 80%;
 }
 
 .c-hamburger span::before,
@@ -52,7 +63,7 @@
   display: block;
   left: 0;
   width: 100%;
-  height: 4px;
+  height: 3px;
   background-color: black;
   content: "";
     border-radius:5px;
@@ -116,14 +127,14 @@
 
 .active  .c-hamburger--htla span::before {
   top: 0;
-  -webkit-transform: translateX(20px) translateY(1px) rotate(45deg);
-      -ms-transform:  translateX(20px) translateY(1px) rotate(45deg);
-          transform: translateX(20px) translateY(1px) rotate(45deg);
+  -webkit-transform: translateX(100%) translateY(0px) rotate(45deg);
+      -ms-transform:  translateX(100%) translateY(0px) rotate(45deg);
+          transform: translateX(100%) translateY(0px) rotate(45deg);
 }
-/**/
+
 .active  .c-hamburger--htla span::after {
   bottom: 0;
-  -webkit-transform: translateX(21px) translateY(-1px) rotate(-45deg);
-      -ms-transform: translateX(21px) translateY(-1px) rotate(-45deg);
-          transform:  translateX(21px) translateY(-1px) rotate(-45deg);
+  -webkit-transform: translateX(100%) translateY(0px) rotate(-45deg);
+      -ms-transform: translateX(100%) translateY(0px) rotate(-45deg);
+          transform:  translateX(100%) translateY(0px) rotate(-45deg);
 }
