@@ -27,6 +27,33 @@
 	}
 	.dvTableTopRowCellMiddle { width: 93%; } 
 }
+@media screen and (max-width: 420px) {
+	  .pull-right {
+
+            left: inherit !important;
+       right:0px!important;
+        }
+		 .pull-left{
+			 
+			    right : inherit !important;
+       left:0px!important;
+		 }
+	.pull-right, .pull-left{
+		top: 40px !important;
+		min-width:100vw !important;
+	}
+}
+@media screen and (min-width: 420px) {
+	  .pull-right {
+
+            left: inherit !important;
+         right:0px!important;
+        }
+	.pull-right, .pull-left {
+            top: 40px !important;
+			     min-width: 260px !important;
+        }
+}
 @media screen and (min-width: 600px) and (max-width: 1000px)  {
 	.dvTableTopRowCellRight,.dvTableTopRowCellLeft  {
 		width:5%
