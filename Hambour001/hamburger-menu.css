@@ -23,6 +23,8 @@
 /* to Apply the black line to upper menu as well just remove .topMenuCell  */
 .topMenuCell .ui.dropdown .menu {
     border-bottom: 2px solid black;
+	    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 @media screen and (min-width: 1000px) {
