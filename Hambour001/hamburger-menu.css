@@ -20,12 +20,7 @@
     -webkit-transition: background 0.3s;
     transition: background 0.3s;
 }
-/* to Apply the black line to upper menu as well just remove .topMenuCell  */
-.topMenuCell .ui.dropdown .menu {
-    border-bottom: 2px solid black;
-	    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
+
 
 @media screen and (min-width: 1000px) {
     .dvTableTopRowCellRight, .dvTableTopRowCellLeft {
@@ -172,7 +167,7 @@
         -ms-transform: translateX(100%) translateY(0px) rotate(45deg);
         transform: translateX(100%) translateY(0px) rotate(45deg);
     }
-/**/
+
     .active .c-hamburger--htla span::after {
         bottom: 0;
         -webkit-transform: translateX(100%) translateY(0px) rotate(-45deg);
