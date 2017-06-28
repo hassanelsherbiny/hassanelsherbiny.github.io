@@ -1,0 +1,539 @@
+<html>
+<head runat="server">
+
+
+
+    <!-- <link rel="stylesheet" type="text/css" href="http://www.factorwords.com/jfiddle/1240/css/bootstrap-dropdown/bootstrap.css"> -->
+
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+
+    <!-- https://hassanelsherbiny.github.io/Hambour001/ -->
+    <!-- <script type="text/javascript" src="http://www.factorwords.com/jfiddle/1240/js/bootstrap-dropdown/bootstrap.js"></script> -->
+    <!-- / -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="hamburger-menu.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+
+    <style type="text/css">
+        body {
+            font-size: 16px;
+        }
+
+        .menu1 {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .caret.caret-up {
+            border-top-width: 0;
+            border-bottom: 4px solid #fff;
+        }
+        /* actual dropdown animation */
+
+        .dropdown .dropdown-menu {
+            -webkit-transition: all 0.4s;
+            -moz-transition: all 0.4s;
+            -ms-transition: all 0.4s;
+            -o-transition: all 0.4s;
+            transition: all 0.4s;
+            -webkit-transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000);
+            transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000);
+            max-height: 0;
+            display: block;
+            overflow: hidden;
+            opacity: 0;
+        }
+
+        .dropdown.open .dropdown-menu {
+            max-height: 200px;
+            opacity: 1;
+        }
+
+        .dvTableTopRow {
+            display: table-row;
+        }
+
+        .dvTableTopRowCellLeft {
+            display: table-cell;
+            vertical-align: top;
+            /*text-align: center;*/
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .dvTableTop {
+            margin-bottom: -15px;
+            display: table;
+            width: 100%;
+            padding-top: 1px;
+            padding-bottom: 1px;
+        }
+
+        .dvTableTopRowCellMiddle {
+            display: table-cell;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .dvTableTopRowCellRight {
+            display: table-cell;
+            text-align: right;
+            vertical-align: top;
+            position: relative;
+        }
+
+            .dvTableTopRowCellRight .dropdown, .dvTableTopRowCellRight .text, .dvTableTopRowCellRight button {
+                width: 40px;
+            }
+
+        .topMenu {
+            display: table;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .ui.inline.dropdown .menu {
+            margin-top: 0.10em !important;
+        }
+
+        @media screen and (min-width: 420px) {
+            .topMenuInner {
+                width: 420px;
+                display: table;
+                margin: auto;
+            }
+
+            .topMenuCell {
+                width: 25%;
+            }
+
+            .ui.dropdown .menu {
+                top: 37px;
+                left: -18px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+
+            .blackline {
+                width: 98%;
+                margin: auto;
+            }
+        }
+
+        @media screen and (max-width: 420px) {
+            .topMenuInner {
+                width: 100%;
+                display: table;
+                margin: auto;
+            }
+            .ui.dropdown .menu {
+                border-radius: 0px !important;
+            }
+            .ui.dropdown .menu > .item {
+                padding-left: 3px !important;
+                font-size: 16px;
+            }
+            .dvTableTop .ui.dropdown .menu > .item {
+                padding-left: 14px !important;
+                font-size: 16px;
+                height: 48px;
+                line-height: 24px;
+            }
+
+
+
+            .item-text {
+                margin-left: -6%;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            .item-text {
+                margin-left: -15px;
+            }
+        }
+
+        .topMenuRow {
+            display: table-row;
+        }
+
+        .topMenuCell {
+            display: table-cell;
+            margin: auto;
+            text-align: center;
+            padding: 12px;
+        }
+
+        .topMenu ul li a img {
+            width: 24px;
+        }
+
+        .topMenu {
+            background-color: black;
+        }
+
+        .svg svg, .profiledd svg {
+            width: 25px;
+            height: 25px;
+        }
+
+        .svg2 svg {
+            width: 24px;
+            height: 24px;
+        }
+
+            .svg2 svg path {
+                fill: gray !important;
+            }
+
+        .svg2 {
+            color: gray !important;
+        }
+
+        body {
+            background: white !important;
+        }
+
+
+
+        .topMenu ul {
+            padding: 0px;
+        }
+
+        .ui.inline.dropdown.right, .ui.inline.dropdown.left {
+            text-align: -webkit-right;
+            position: inherit;
+        }
+
+
+
+
+
+        svg path {
+            fill: white !important;
+        }
+
+        .profiledd svg path {
+            fill: black !important;
+        }
+
+        .item-text {
+            font-size: 16px;
+            width: 75%;
+            display: inline-block;
+            color: gray;
+            top: -6px;
+            position: relative;
+            /*margin-top: 3px;*/
+        }
+
+        .svg2 {
+            /*position: absolute;*/
+            display: inline-block;
+            width: 25%;
+            text-align: center;
+        }
+
+        /*.item-placeholder {
+            width: 25px;
+            content: '';
+            display: inline-block;
+        }*/
+
+        .grayline {
+            width: 94%;
+            height: 1px;
+            margin: auto;
+            background: gray;
+        }
+
+        .blackline {
+            height: 2px;
+            background: black;
+        }
+    </style>
+
+    <title>Hamb001 by HassanElsherbiny</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+
+
+
+    <form id="form1" runat="server">
+        <div class="dvTableTop">
+            <div class="dvTableTopRow">
+                <div class="dvTableTopRowCellLeft">
+
+                    <div class="ui inline dropdown left">
+                        <!-- Dropdown right -->
+                        <div class="text">
+                            <a href="#" url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-user.svg' class="profiledd"></a>
+                        </div>
+                        <div class="menu pull-left">
+                            <div class="item">
+
+                                <asp:LinkButton ID="LinkButtonProfile" runat="server">Profile</asp:LinkButton>
+                            </div>
+                            <div class="item">
+                                <asp:LinkButton ID="LinkButtonr1" runat="server">Logout</asp:LinkButton>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!-- no whitespace here --><div class="dvTableTopRowCellMiddle">
+                    Logo
+                </div><!-- no whitespace here --><div class="dvTableTopRowCellRight">
+                    <div class="ui inline dropdown right">
+                        <!-- Dropdown left -->
+                        <div class="text">
+                            <button class="c-hamburger c-hamburger--htla" id='btSwitch' type="button" data-toggle="dropdown">
+                                <span></span>
+                            </button>
+                        </div>
+                        <div class="menu pull-right">
+                            <div class="item">
+                                <asp:divnkButton ID="divnkButton1" runat="server">Home</asp:divnkButton>
+                            </div>
+                            <div class="item">
+                                <asp:divnkButton ID="divnkButton2" runat="server">Help</asp:divnkButton>
+                            </div>
+                            <div class="item">
+                                <asp:divnkButton ID="divnkButton3" runat="server">About</asp:divnkButton>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="item">
+                                <asp:divnkButton ID="divnkButton4" runat="server">Contact</asp:divnkButton>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topMenu">
+            <div class="topMenuInner">
+                <div class="topMenuRow">
+                    <div class="topMenuCell">
+
+                        <div class="ui indivne dropdown">
+
+                            <div class="text">
+                                <a href="#" class='svg' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                </a>
+                            </div>
+                            <div class="menu">
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+
+                                        <asp:divnkButton ID="divnkButtonProfile" runat="server">Menu Item 1</asp:divnkButton>
+
+
+                                    </div>
+                                </div><div class="grayline"></div>
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-path.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+                                        <asp:divnkButton ID="divnkButtonr1" runat="server">Menu Item 2</asp:divnkButton>
+
+
+                                    </div>
+                                </div><div class="grayline"></div>
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+                                        <asp:divnkButton ID="divnkButtonr1" runat="server">Menu Item 3</asp:divnkButton>
+
+
+                                    </div>
+                                </div>
+                                <div class="blackline"></div>
+                            </div>
+                        </div>
+                    </div><!-- no whitespace here --><div class="topMenuCell">
+                        <div class="ui indivne dropdown">
+
+                            <div class="text">
+                                <a href="#" class='svg' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-path.svg'>
+
+                                </a>
+                            </div>
+                            <div class="menu">
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+
+                                        <asp:divnkButton ID="divnkButtonProfile" runat="server">Menu Item 1</asp:divnkButton>
+                                    </div>
+                                </div><div class="grayline"></div>
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-path.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+                                        <asp:divnkButton ID="divnkButtonr1" runat="server">Menu Item 2</asp:divnkButton>
+                                    </div>
+                                </div><div class="grayline"></div>
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+                                        <asp:divnkButton ID="divnkButtonr1" runat="server">Menu Item 3</asp:divnkButton>
+                                    </div>
+                                </div><div class="blackline"></div>
+                            </div>
+                        </div>
+                    </div><!-- no whitespace here --><div class="topMenuCell">
+                        <div class="ui indivne dropdown">
+
+                            <div class="text">
+                                <a href="#" class='svg' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                </a>
+                            </div>
+                            <div class="menu">
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+
+                                        <asp:divnkButton ID="divnkButtonProfile" runat="server">Menu Item 1</asp:divnkButton>
+                                    </div>
+                                </div><div class="grayline"></div>
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-sort-by.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+                                        <asp:divnkButton ID="divnkButtonr1" runat="server">Menu Item 2</asp:divnkButton>
+                                    </div>
+                                </div><div class="grayline"></div>
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-search.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+                                        <asp:divnkButton ID="divnkButtonr1" runat="server">Menu Item 3</asp:divnkButton>
+                                    </div>
+                                </div><div class="blackline"></div>
+                            </div>
+                        </div>
+                    </div><!-- no whitespace here --><div class="topMenuCell">
+                        <div class="ui indivne dropdown">
+
+                            <div class="text">
+                                <a href="#" class='svg' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-search.svg'>
+
+                                </a>
+                            </div>
+                            <div class="menu">
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+
+                                        <asp:divnkButton ID="divnkButtonProfile" runat="server">Menu Item 1</asp:divnkButton>
+                                    </div>
+                                </div><div class="grayline"></div>
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+                                        <asp:divnkButton ID="divnkButtonr1" runat="server">Menu Item 2</asp:divnkButton>
+                                    </div>
+                                </div><div class="grayline"></div>
+                                <div class="item">
+                                    <a href="#" class='svg2' url='https://hassanelsherbiny.github.io/Hambour001/svg/icon-category.svg'>
+
+                                    </a>
+                                    <!--<div class="item-placeholder"></div>-->
+                                    <div class='item-text'>
+                                        <asp:divnkButton ID="divnkButtonr1" runat="server">Menu Item 3</asp:divnkButton>
+                                    </div>
+                                </div><div class="blackline"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <p>The quick brown fox ...</p>
+        <p>The quick brown fox ...</p>
+        <p>The quick brown fox ...</p>
+        <p>The quick brown fox ...</p>
+        <p>The quick brown fox ...</p>
+
+
+
+    </form>
+
+    <script>
+
+        function LoadSVG(url, c) {
+            $.get(url, function (d) {
+
+                $(c).append($(d).find("svg"));
+            });
+        }
+        $(document).ready(function () {
+            $('.ui.dropdown').dropdown({
+
+                onChange: function (e) {
+
+
+                    var txtDiv = $(this).find('.text');
+                    var icon = txtDiv.find('a');
+
+                    txtDiv.html(icon);
+                    $(txtDiv).find("a").removeClass("svg2").addClass("svg");
+                }
+            });
+            $(".dvTableTop .ui.dropdown *").off("click");
+            $("a[url]").each(function (i, c) {
+                var url = $(c).attr("url");
+                if (url != undefined && url != null) {
+
+                    LoadSVG(url, c);
+                }
+
+            }
+            );
+        });
+    </script>
+</body>
+</html>
