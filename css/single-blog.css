@@ -1,0 +1,236 @@
+/*------------------------------------
+*Author:FortunaTheme
+*Template:Rezumate
+*Version:2.0
+*-------------------------------------
+*/
+
+
+/*-----------------blog-introduce area ----------------*/
+
+.blog-introduce {
+  position: relative;
+  top: 0px;
+  background: url("../images/blog-introduce.jpg");
+  width: 100%;
+}
+
+.blog-introduce h3 {
+  color: #fff;
+  padding-top: 160px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+
+/*-----------------blog-left-area ----------------*/
+
+.blog-left-area .blog-img {
+  margin-bottom: 30px;
+}
+
+.blog-left-area .blog-description p {
+  font-size: 13px;
+  margin: 15px 0px;
+  color: #164E71;
+}
+
+.blog-left-area .blog-description p i {
+  padding: 0px 4px;
+  font-size: 15px;
+}
+
+.blog-left-area .blog-content p {
+  margin-bottom: 15px;
+}
+
+.blog-left-area .blog-content blockquote {
+  padding: 22px 20px;
+  margin: 0 0 20px;
+  font-size: 15.5px;
+  border-left: 5px solid #7e7e7e;
+  background: #e7e7e7;
+  line-height: 25px;
+  margin: 20px 0px;
+}
+
+.blog-left-area .blog-share {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.blog-left-area .blog-share p,
+.blog-left-area .blog-share a {
+  display: inline-block;
+}
+
+.blog-left-area .blog-share p {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.blog-left-area .blog-share a {
+  width: 33px;
+  height: 33px;
+  background-color: #fff;
+  border: 1px solid #164E71;
+  margin: 0px 4px;
+  transition: all 0.5s;
+}
+
+.blog-left-area .blog-share a i {
+  color: #164E71;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.blog-left-area .blog-share a:hover {
+  background: #164E71;
+}
+
+.blog-left-area .blog-share a:hover i {
+  color: #fff;
+}
+
+.blog-left-area .blog-share a i {
+  color: #164E71;
+  text-align: center;
+  display: block;
+  line-height: 33px;
+}
+
+.blog-left-area .comment-img img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 65px;
+}
+
+.blog-left-area .comment-area .name {
+  text-align: center;
+  padding-top: 4px;
+  font-weight: 700;
+  display: block;
+  color: #333;
+  letter-spacing: 1.6px;
+}
+
+.blog-left-area .comment-area {
+  background: #f5f5f5;
+  padding: 12px 20px;
+  margin: 30px 0px;
+  box-shadow: 0px 0px 5px #d2d2d2;
+}
+
+.blog-left-area .comment-time {
+  font-size: 13px;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.blog-left-area .comment-form {
+  margin-top: 30px;
+}
+
+.blog-left-area #comment-reply {
+  width: 135px;
+  margin-top: 20px;
+}
+
+
+/*-----------------blog-right-area ----------------*/
+
+.blog-right-area .search-box {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.blog-right-area .search-box input {
+  height: 40px;
+}
+
+.blog-right-area .search-btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: #164E71;
+  border: 0px;
+  width: 45px;
+  height: 40px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.blog-right-area .search-btn:hover {
+  background: #000;
+}
+
+.blog-right-area .tags h6 {
+  padding-top: 20px;
+  padding-bottom: 23px;
+}
+
+.blog-right-area .category h6,
+.blog-right-area .recent-posts h6 {
+  padding-top: 20px;
+  padding-bottom: 7px;
+}
+
+.blog-right-area .recent-post-list li {
+  margin: 12px 0px;
+}
+
+.blog-right-area .recent-post-list li a {
+  color: #4B4B4B;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.blog-right-area .recent-post-list li a:hover {
+  color: #164E71;
+}
+
+.blog-right-area .category-list li {
+  margin: 12px 0px;
+  transition: all 0.5s;
+}
+
+.blog-right-area .category-list li:hover {
+  margin-left: 10px;
+}
+
+.blog-right-area .category-list li a {
+  color: #4B4B4B;
+  font-weight: 600;
+}
+
+.blog-right-area .category-list li a::before {
+  content: "\f105";
+  font-family: FontAwesome;
+  padding-right: 10px;
+}
+
+.blog-right-area .tag-list li {
+  display: inline-block;
+  background: #ddd;
+  margin: 5px;
+  margin-right: 8px;
+  padding: 5px 20px;
+  transition: all 0.5s;
+}
+
+.blog-right-area .tag-list li a {
+  color: #000;
+}
+
+.blog-right-area .tag-list li:hover {
+  background: #000;
+}
+
+.blog-right-area .tag-list li:hover a {
+  color: #fff;
+}

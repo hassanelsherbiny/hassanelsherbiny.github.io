@@ -1,0 +1,37 @@
+/*------------------------------------
+*Author:FortunaTheme
+*Template:Rezumate
+*Version:1.1
+*-------------------------------------
+*/
+.heading{
+	margin-top: 100px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+.heading h2 span{
+	color: #164E71;
+}
+.heading h5{
+	font-weight: 500;
+	padding: 20px 0px;
+}
+.item {
+	overflow: hidden;
+	background: #f2f2f2;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px #414141;
+	margin-bottom: 50px;
+}
+
+.item a p{
+	text-align: center;
+	color: #000;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 15px 0px;
+}
+.item a img{
+	width:100%;
+	height: auto; 
+}

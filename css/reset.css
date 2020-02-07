@@ -1,0 +1,164 @@
+/*------------------------------------
+*Author:FortunaTheme
+*Template:Rezumate
+*Version:2.0
+*-------------------------------------
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #595959;
+  letter-spacing: 0.8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 54px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 48px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 42px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 36px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 30px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 24px;
+  color: #181818;
+  font-weight: 600;
+}
+
+.btn-style1 {
+  padding: 12px 22px;
+  color: #fff;
+  display: inline-block;
+  transition: all 0.5s;
+  background-color: #164E71;
+  font-weight: 500;
+}
+
+.btn-style1:hover,.btn-style1:focus  {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-style2 {
+  padding: 12px 22px;
+  color: #fff;
+  display: inline-block;
+  transition: all 0.5s;
+  font-weight: 500;
+  border: 1px solid #fff;
+}
+
+.btn-style2:hover,.btn-style2:focus {
+  background-color: #fff;
+  color: #164E71;
+  border-color: transparent;
+}
+
+.btn-style3 {
+  padding: 10px 22px;
+  background-color: #fff;
+  color: #164E71;
+  display: inline-block;
+  transition: all 0.5s;
+  font-weight: 500;
+  border: 1px solid #164E71;
+}
+
+.btn-style3:hover,.btn-style3:focus  {
+  background-color: #164E71;
+  color: #fff;
+  border-color: transparent;
+}
+
+.section-title {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.sub-header {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2C2C2C;
+  font-style: italic;
+  letter-spacing: .3px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: 0;
+  color: #fff;
+}
+
+.primary {
+  color: #164E71;
+}
+
+.primary-bg {
+  background-color: #164E71;
+}
+
+.padding-style1 {
+  padding: 100px 0;
+}
+
+.animation {
+  opacity: 0;
+}

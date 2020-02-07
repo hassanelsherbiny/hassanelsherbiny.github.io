@@ -1,0 +1,458 @@
+{
+  "Title": "Hasan Elsherbiny - Developer",
+  "Name": "Hasan Elsherbiny",
+  "DisplayJob": [ "I am Creative", "Senior", " .Net Developer." ],
+  "Job": "Senior .Net Developer",
+  "Address": "Tala,Monufia Egypt",
+  "Mobile": "+201093837356",
+  "Email": "hasan.Elsherbiny1@gmail.com",
+
+  "MoreAbout": "Talanted Developer With BA Of Computer Sciencees, I Have Started Programing At Age Of 14 Years Old, Then I Have Been in .net Stack Since 2013 Now,Im Experienced Dot net Developer Worked On Many Projects Varies Between Desktop Application Utilities ,Management Systems And Personal / Commercial Web Applications.I Know a lot About Programming ,Problem Solving ,Web Architecture ,Windows Architecture ,N'Tire Architecture ,Repository And Unit Of Work Patterns.I Love Creating Applications On Different Platforms With Inovative Ways.I Have been Using Technologies for a very long time Which Tought me alot of things and created my logical thinking.Im Always Looking For New Challanges And New Ideas..",
+  "Services": [
+    {
+      "Title": "Web Developments",
+      "Detail": "Professional Web Applications For Commerical And Personal Uses.Applications Are Made Using Asp.Net Core / Asp.net MVC With The Power And Speed Of MongoDB.",
+      "Icon": "fa fa-globe",
+      "animation": "fadeInLeft"
+    },
+    {
+      "Title": "Desktop Developments",
+      "Detail": "Professional Desktop Application To Interact With Client's Computers as well as web applications To Serve the Full Experince Of Integration Accross All Client's Platforms..",
+      "animation": "pulse",
+      "Icon": "fa fa-desktop"
+    },
+    {
+      "Title": "Mobile Apps",
+      "Detail": "To Complete The Stack Of Development And To Serve Fully Featured Applications I Use Xamarin Forms To Bring Features Of My Powerfull Web Apps To Mobiles",
+      "animation": "fadeInRight",
+      "Icon": "fa fa-mobile"
+    }
+
+  ],
+
+  "Portfolio": [
+    {
+      "Id": "",
+      "Title": "TimeAttendance",
+      "Image": "timeattendance",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Mountain Academy",
+      "Image": "mountain",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "ERP System",
+      "Image": "erp.png",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Ginga Sciences Academy",
+      "Image": "ginga",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "MusicanaFM",
+      "Image": "48048-1474165155-musicana.jpg",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Employmeent System",
+      "Image": "tawzeef.png",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "RealEstate Management",
+      "Image": "aqarat.png",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Archiving",
+      "Image": "archiving",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Organizations",
+      "Image": "organizations",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Hawana FM",
+      "Image": "HawanaFM",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "EcoClinic",
+      "Image": "ecoclinic",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Al Maqam Visitors",
+      "Image": "maqam",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "JDE Edward Reporting Portal",
+      "Image": "jde",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Qiadah",
+      "Image": "Web_placeholder",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Elite Partner Website",
+      "Image": "elitepartner",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "SMS Marketing",
+      "Image": "smsmarkting",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Blog Gate",
+      "Image": "gateblog",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Orxtra Website",
+      "Image": "orxtra",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Unlimited Solution Website",
+      "Image": "unlimitedsolutions",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Faculty Maintenance",
+      "Image": "Maintenance",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Open Book",
+      "Image": "openbook",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Real Estate",
+      "Image": "real_esstate",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "The Photographer",
+      "Image": "photographer",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Compics Team Website",
+      "Image": "Web_placeholder",
+      "Category": "WebApp"
+    },
+    {
+      "Id": "",
+      "Title": "Tidal Website",
+      "Image": "Web_placeholder",
+      "Category": "WebApp"
+    },
+
+
+    {
+      "Id": "",
+      "Title": "Sahel",
+      "Image": "sahel",
+      "Category": "Cpanels"
+    },
+    {
+      "Id": "",
+      "Title": "Tabiby",
+      "Image": "Web_placeholder",
+      "Category": "Cpanels"
+    },
+    {
+      "Id": "",
+      "Title": "Sama Al Afaq",
+      "Image": "Web_placeholder",
+      "Category": "Cpanels"
+    },
+    {
+      "Id": "",
+      "Title": "Switch",
+      "Image": "Web_placeholder",
+      "Category": "Cpanels"
+    },
+
+
+
+
+
+    {
+      "Id": "",
+      "Title": "RFF",
+      "Image": "rff",
+      "Category": "ECommerce"
+    },
+    {
+      "Id": "",
+      "Title": "Ifind",
+      "Image": "0oXlelsN_400x400",
+      "Category": "ECommerce"
+    },
+    {
+      "Id": "",
+      "Title": "Turksale",
+      "Image": "turksale",
+      "Category": "ECommerce"
+    },
+    {
+      "Id": "",
+      "Title": "ERP EComerce Portal",
+      "Image": "Web_placeholder",
+      "Category": "ECommerce"
+    },
+
+    {
+      "Id": "",
+      "Title": "Gym Management System",
+      "Image": "gym",
+      "Category": "Desktop"
+    },
+    {
+      "Id": "",
+      "Title": "Sales Management System",
+      "Image": "sales",
+      "Category": "Desktop"
+    },
+    {
+      "Id": "",
+      "Title": "Medical Lab Reservation System",
+      "Image": "lab",
+      "Category": "Desktop"
+    },
+    {
+      "Id": "",
+      "Title": "Time Attendance Service",
+      "Image": "Web_placeholder",
+      "Category": "Desktop"
+    },
+    {
+      "Id": "",
+      "Title": "Archiving System Client",
+      "Image": "Web_placeholder",
+      "Category": "Desktop"
+    },
+    {
+      "Id": "",
+      "Title": "Chat Room",
+      "Image": "Web_placeholder",
+      "Category": "Desktop"
+    },
+
+
+    {
+      "Id": "",
+      "Title": "The WiZaRD",
+      "Image": "thewizard",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "Offline Installer",
+      "Image": "Offline_Installer",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "MongoDb Tools",
+      "Image": "Web_placeholder",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "Arabic Text Converter",
+      "Image": "TextConverter",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "DateTimeX",
+      "Image": "Web_placeholder",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "Subtitles Tools",
+      "Image": "Web_placeholder",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "Links Manager",
+      "Image": "LinksManager",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "Image Viewer",
+      "Image": "image_viewer",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "Mp3 Tag Setter",
+      "Image": "mp3Tag_Icon",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "My Diaries",
+      "Image": "mydiaries",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
+      "Title": "Master Password",
+      "Image": "master_password",
+      "Category": "Utilites"
+    },
+
+    {
+      "Id": "",
+      "Title": "Alarm",
+      "Image": "Alarm",
+      "Category": "Utilites"
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "WebApp",
+      "Title": "Web Applications"
+    },
+    {
+      "Id": "ECommerce",
+      "Title": "E-Commerce"
+    },
+    {
+      "Id": "Desktop",
+      "Title": "Desktop"
+    },
+    {
+      "Id": "Utilites",
+      "Title": "Utilites"
+    },
+    {
+      "Id": "Cpanels",
+      "Title": "Control Panels"
+    }
+  ],
+  "WorkHistory": [
+    {
+      "Title": "Senior .Net Developer",
+      "Date": "2017-NOW",
+      "Detail": "Senoior .Net Developer At Tidal For Information System"
+    },
+    {
+      "Title": ".Net Developer",
+      "Date": "2016-2017",
+      "Detail": "Junior .Net Developer At Tidal For Information System"
+    },
+    {
+      "Title": ".Net Developer",
+      "Date": "2017-2018",
+      "Detail": "PartTime/Per Project At Al-Dar International"
+    },
+    {
+      "Title": ".Net Developer",
+      "Date": "2017",
+      "Detail": "PartTime/Per Project At Tech Touch"
+    },
+    {
+      "Title": ".Net Developer",
+      "Date": "2015-2016",
+      "Detail": "Desktop/Web Application Developer At Unlimited Solutions"
+    },
+
+    {
+      "Title": "Freelancer .Net Developer",
+      "Date": "2013-NOW",
+      "Detail": "Freelancer .Net Developer On Many freelance projects on differnt Working platforms like UPWORK"
+    }
+
+  ],
+  "Skills": [
+    [
+      "C#",
+      "Asp.Net Core",
+      "Asp.Net MVC",
+      "Asp.net WebForms",
+      "OOP",
+      "Xamarin Forms",
+      "CSS",
+      "bootstrap",
+      "Javascript",
+      "Jquery",
+      "Angular.Js",
+      "Html"
+    ],
+    [ "SQL Server", "MongoDb", "My SQL", "Oracle", "Entity FrameWork", "ADO.Net", "Visual Studio", "TFS", "GIT", "Devexpress", "Docker", "Crystal Reports", "Visual Studio Extensions" ],
+    [ "Algorithms", "DataStructures", "Problem Solving", "Analytical Skills", "SignalR", "Google Maps", "Facebook OpenGraph", "ZkTeco SDK", "Secugen SDK" ]
+  ],
+  "Lang": {
+    "More": "More",
+    "AboutMe": "About Me",
+    "ViewMyCv": "View My Cv",
+    "MySkills": "My Skills",
+    "MySkillsDetails": "I Have Been Using Alot Of Programing Technolgies ",
+    "MySkillsDetails2": "During my Career As Developer I have Aquired Alot Of Programing Technolgies ,Skills And Some Usefull tools. also i have used some Usefull and global SKDS/APIS... ",
+    "CheckPortfolio": "Check My Portfolio",
+    "WhatIDo": "What I Do",
+    "All": "ALL",
+    "WorkHistory": "My Work History",
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "Work": "Work",
+    "Contact": "Contact",
+    "Mobile": "Mobile",
+    "Address": "Address",
+    "Email": "Email",
+
+    "Skill1": "Technologies And Skills.",
+    "Skill2": "Database Technologies.",
+    "CheckProfile": "Check My Profile On : ",
+    "GetInTouch": "Get In Touch",
+    "MyWork": "My Work",
+    "": "",
+    "": ""
+
+
+
+  }
+
+}

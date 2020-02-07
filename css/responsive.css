@@ -1,0 +1,200 @@
+/*------------------------------------
+*Author:FortunaTheme
+*Template:Rezumate
+*Version:2.0
+*-------------------------------------
+*/
+
+@media screen and (max-width: 1920px) {
+  /*-------------------skills---------------*/
+  .skill-overlay {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: rgb(249, 249, 249);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /*------header--------*/
+  #menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    z-index: 10;
+    background: transparent;
+  }
+  .slicknav_btn {
+    margin-top: 20px;
+    border: 1px solid #164E71;
+    background: #fff;
+    margin-right: 20px;
+  }
+  .slicknav_nav a {
+    background: #447C9F;
+    height: 47px;
+    color: #fff;
+    width: 200px;
+    padding-top: 12px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .slicknav_nav a:hover {
+    border-radius: 0px;
+    background: #fff;
+    color: #164E71;
+  }
+  .slicknav_nav,
+  .slicknav_nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .slicknav_nav .slicknav_row,
+  .slicknav_nav a {
+    margin: 0px;
+  }
+  .slicknav_menu .slicknav_icon-bar {
+    background-color: #164E71;
+  }
+  header {
+    background-color: #fff;
+  }
+  /*--------------about----------------*/
+  .about-img-overlay {
+    width: 100%;
+  }
+  .about-img {
+    margin-bottom: 30px;
+  }
+  .about-text a {
+    margin-top: 45px;
+  }
+  .about-text {
+    padding-left: 0px;
+  }
+  .about-img-overlay {
+    bottom: 30px;
+  }
+  .about-img:hover .about-img-overlay {
+    bottom: 30px;
+  }
+  /*----------skills-----------*/
+  .skill-overlay {
+    position: absolute;
+    top: 535px;
+    width: 100%;
+    height: 50%;
+    background: rgb(249, 249, 249);
+  }
+  .progressbar-area {
+    margin-left: 30px;
+    margin-top: 0px;
+    position: relative; 
+    padding: 81px 0px; 
+    margin-right: 30px;
+  }
+  .skill-heading-area {
+    margin-top: 30px;
+  }
+  /*------------experience---------------*/
+  .experience .left-item .experience-circle {
+    display: none;
+  }
+  .experience .left-item .experience-content::after {
+    display: none;
+  }
+  .experience .left-item::after {
+    display: none;
+  }
+  .experience .left-item .experience-content {
+    margin-right: 0px;
+  }
+  .experience .right-item .experience-content::after {
+    display: none;
+  }
+  .experience .right-item::after {
+    display: none;
+  }
+  .experience .right-item .experience-circle {
+    display: none;
+  }
+  .experience .right-item .experience-content {
+    margin-left: 0px;
+  }
+  .experience-top-margin {
+    margin-top: 40px;
+  }
+  #client-testimonial .owl-carousel .owl-wrapper-outer {
+    min-height: 425px;
+  }
+  /*-------------contact-form-------*/
+  form #name,
+  form #email {
+    margin-top: 20px;
+  }
+  /*----------single-blog-----------*/
+  .search-box {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  /*--------------header--------------*/
+  .typed-cursor,
+  .element {
+    font-size: 45px;
+  }
+  /*----------------skills---------------*/
+  .skill-overlay {
+    top: 542px;
+  }
+  /*-------------contact-form-------*/
+  .contact-form {
+    padding: 0px 0px;
+  }
+  .contact .submit-btn {
+    margin-top: 42px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  /*----------------skills---------------*/
+  .skill-overlay {
+    top: 575px;
+  }
+  /*---------------portfolio--------------*/
+  .portfolio-content-head ul li {
+  margin-bottom: 8px;
+  }
+  /*----------------testimonial-----------*/
+  .owl-carousel .owl-wrapper-outer {
+    min-height: 476px;
+  }
+  /*----------single-blog-----------*/
+  .blog-detail.padding-style1{
+    padding: 50px 0px;
+  }
+}
+@media screen and (max-width:360px) {
+  /*----------------testimonial-----------*/
+  #client-testimonial .owl-carousel .owl-wrapper-outer {
+    min-height: 461px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  /*----------------skills---------------*/
+  .skill-overlay {
+    top: 588px;
+  }
+  /*----------------testimonial-----------*/
+  #client-testimonial .owl-carousel .owl-wrapper-outer {
+    min-height: 485px;
+  }
+
+}
