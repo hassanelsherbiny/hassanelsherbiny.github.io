@@ -14,6 +14,11 @@ angular.module('Basic').controller('ProfileNg', ['$scope', '$compile', '$http', 
             loop: true,
         });
         setTimeout(function () {
+            var menu = $("#menu");
+
+            menu.slicknav({
+                label: '',
+            });
             var animation1 = jQuery('.animation');
 
             animation1.waypoint(function () {
