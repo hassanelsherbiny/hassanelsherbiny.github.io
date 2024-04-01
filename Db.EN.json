@@ -1,13 +1,20 @@
 {
   "Title": "Hasan Elsherbiny - Developer",
   "Name": "Hasan Elsherbiny",
-  "DisplayJob": [ "I am Creative", "Senior", " .Net Developer." ],
+  "DisplayJob": [
+    "I am Creative",
+    "Senior",
+    ".Net Developer.",
+    "Visionary",
+    "Devops",
+    "Engineer"
+  ],
   "Job": "Senior .Net Developer",
-  "Address": "Tala,Monufia Egypt",
+  "Address": "Cairo, Egypt",
   "Mobile": "+201093837356",
-  "Email": "hasan.Elsherbiny1@gmail.com",
+  "Email": "HassanElsherbiny55@gmail.com",
 
-  "MoreAbout": "Talanted Developer With BA Of Computer Sciencees, I Have Started Programing At Age Of 14 Years Old, Then I Have Been in .net Stack Since 2013 Now,Im Experienced Dot net Developer Worked On Many Projects Varies Between Desktop Application Utilities ,Management Systems And Personal / Commercial Web Applications.I Know a lot About Programming ,Problem Solving ,Web Architecture ,Windows Architecture ,N'Tire Architecture ,Repository And Unit Of Work Patterns.I Love Creating Applications On Different Platforms With Inovative Ways.I Have been Using Technologies for a very long time Which Tought me alot of things and created my logical thinking.Im Always Looking For New Challanges And New Ideas..",
+  "MoreAbout": "Senior Full-stack .NET Developer with over 8 years of experience, Skilled in creating and refining scalable web applications. My expertise extends to troubleshooting and debugging, allowing me to drive the successful development of a wide range of applications. Specialized in establishing and managing efficient continuous integration and deployment pipelines. Additionally, Proficient in deploying applications to both Linux and Windows environments utilizing IIS and Nginx to ensure seamless operations.",
   "Services": [
     {
       "Title": "Web Developments",
@@ -22,12 +29,11 @@
       "Icon": "fa fa-desktop"
     },
     {
-      "Title": "Mobile Apps",
-      "Detail": "To Complete The Stack Of Development And To Serve Fully Featured Applications I Use Xamarin Forms To Bring Features Of My Powerfull Web Apps To Mobiles",
+      "Title": "Devops",
+      "Detail": "Passionate for Devops and Automation ,eager about cloud and CI/CD and professional in deployement using iis/ngnix on cloud and on Linux and Windows",
       "animation": "fadeInRight",
-      "Icon": "fa fa-mobile"
+      "Icon": "fas fa-infinity"
     }
-
   ],
 
   "Portfolio": [
@@ -182,7 +188,6 @@
       "Category": "WebApp"
     },
 
-
     {
       "Id": "",
       "Title": "Sahel",
@@ -207,10 +212,6 @@
       "Image": "Web_placeholder",
       "Category": "Cpanels"
     },
-
-
-
-
 
     {
       "Id": "",
@@ -273,7 +274,6 @@
       "Image": "Web_placeholder",
       "Category": "Desktop"
     },
-
 
     {
       "Id": "",
@@ -373,37 +373,88 @@
   ],
   "WorkHistory": [
     {
+      "Title": "Senior Full-stack .Net Developer",
+      "Date": "Oct 2023 - Now",
+      "Company": "3 Pillars, Cairo, Egypt",
+      "Details": [
+        "Collaborated with cross-functional teams to develop and execute agile development plan; delivered first MVP ahead of schedule and increased adoption rate by 25%.",
+        "Built Dynamic Workflows Engine allowing Handling +50 different Workflows providing backend Apis and dashboards.",
+        "Developed +15 Interactive, Comprehensive and detailed Reports, charts and dashboards."
+      ]
+    },
+    {
+      "Title": "Senior Full-stack .Net Developer",
+      "Date": "May 2022 – Sept 2023",
+      "Company": "IT Ranks, Cairo, Egypt",
+      "Details": [
+        "Joined team working on +20 Micro-Services of different digital solutions and IOT integrations.",
+        "Enhanced SSO service by adding features using Identity Server 4, benefiting over 200K users.",
+        "Developed CI/CD Pipelines for automating deploying services to both on premise and cloud servers.",
+        "Employed agile methodology to foster collaboration with global cross-functional teams, facilitating efficient and iterative development cycles while delivering high-quality +30 software solutions."
+      ]
+    },
+    {
       "Title": "Senior .Net Developer",
-      "Date": "2017-NOW",
-      "Detail": "Senoior .Net Developer At Tidal For Information System"
+      "Date": "Nov 2018 - Apr 2022",
+      "Company": "Tidal Information Systems",
+      "Details": [
+        "Rewrote algorithm of Biometric Sign-on Solution resulted in decrease login response time from 15 seconds to 17 milliseconds.",
+        "Led team of 5 developers while also reviewing code commits to on premise version control.",
+        "Integrated with (+9) Third Party providers including payment gateways, biometric Devices, SAP and CRM.",
+        "Established out of box biometric solutions dealing with high hardware capacity (+1500 Connected Device).",
+        "Dealt with ERP systems, Management systems, documents’ flow, employment, dashboards and reporting systems for over 3 Years and constructed CI/CD pipelines with Jenkins."
+      ]
+    },
+    {
+      "Title": "Senior .Net Developer",
+      "Date": "Aug 2018 - Oct 2018",
+      "Company": "Leaders Group",
+      "Details": [
+        "Engineered Restful APIs for mobile application serving +70 slaughterhouses, resulting in a 45% increase in average monthly orders and a 40% reduction in order errors. ",
+        "Generated, tested and deployed scalable, highly available and modular software applications using .Net Core/MVC and JQuery to serve More than 100 clients."
+      ]
+    },
+    {
+      "Title": "Senior Full-stack .Net Developer",
+      "Date": "Feb 2018 - Jul 2018",
+      "Company": "Al Dar",
+      "Details": [
+        "Developed E-Commerce Application (shopping cart, orders and online payments) with +5000 products and customers.",
+        "Analyzed business requirements and design +25 databases to fit needs, Created scalable/maintainable code for ERP and +8 Management Web Apps.",
+        "Established web portal to sync with a running stock-control (on premise, Legacy) application and display Products for public clients."
+      ]
+    },
+    {
+      "Title": "Junior .Net Developer",
+      "Date": "Feb 2017 - Jan 2018",
+      "Company": "Tidal Information Systems",
+      "Details": [
+        "Wrote code for ERP and +9 management web applications with capabilities to address different business situations, Maintained current running applications, providing enhancements and bug fixes (+200 critical Issue).",
+        "",
+        "Deliver +10 proof of concepts regarding refactoring old services with best practices in software design and object-oriented.",
+        "Spearheaded a collaborative effort to model over 35 databases, optimizing data architecture to meet client specifications lead to a 30% reduction in data retrieval time."
+      ]
+    },
+    {
+      "Title": "Software Developer",
+      "Date": "Jul 2016 - Jan 2017",
+      "Company": "Unlimited-Solutions",
+      "Details": [
+        "Built And Designed of +10 desktop applications for supermarket, gym, medical laps and pharmacies.",
+        "Developed Radio broadcasting website and Company Portfolio using Asp .Net, Angular and SignalR.",
+        "Created Inventive way for delivering software updates to our customer led to decrease delivery time by 30%."
+      ]
     },
     {
       "Title": ".Net Developer",
-      "Date": "2016-2017",
-      "Detail": "Junior .Net Developer At Tidal For Information System"
-    },
-    {
-      "Title": ".Net Developer",
-      "Date": "2017-2018",
-      "Detail": "PartTime/Per Project At Al-Dar International"
-    },
-    {
-      "Title": ".Net Developer",
-      "Date": "2017",
-      "Detail": "PartTime/Per Project At Tech Touch"
-    },
-    {
-      "Title": ".Net Developer",
-      "Date": "2015-2016",
-      "Detail": "Desktop/Web Application Developer At Unlimited Solutions"
-    },
-
-    {
-      "Title": "Freelancer .Net Developer",
-      "Date": "2013-NOW",
-      "Detail": "Freelancer .Net Developer On Many freelance projects on differnt Working platforms like UPWORK"
+      "Date": "Sep 2014 - Jun 2016",
+      "Company": "Upwork",
+      "Details": [
+        "Completed +20 applications (web/mobile) in different fields (personal websites and E-Commerce Applications).",
+        "Delivered applications to +30 clients besides deploying (on local private servers with IIS, cloud VPS Windows/Linux).",
+        "Improved page response time by reengineering over 20 web applications developed with outdated technologies."
+      ]
     }
-
   ],
   "Skills": [
     [
@@ -416,12 +467,38 @@
       "CSS",
       "bootstrap",
       "Javascript",
+      "Typescript",
+      "Angular",
       "Jquery",
       "Angular.Js",
       "Html"
     ],
-    [ "SQL Server", "MongoDb", "My SQL", "Oracle", "Entity FrameWork", "ADO.Net", "Visual Studio", "TFS", "GIT", "Devexpress", "Docker", "Crystal Reports", "Visual Studio Extensions" ],
-    [ "Algorithms", "DataStructures", "Problem Solving", "Analytical Skills", "SignalR", "Google Maps", "Facebook OpenGraph", "ZkTeco SDK", "Secugen SDK" ]
+    [
+      "SQL Server",
+      "MongoDB",
+      "My SQL",
+      "Oracle",
+      "Entity FrameWork",
+      "ADO.Net",
+      "Visual Studio",
+      "TFS",
+      "GIT",
+      "Devexpress",
+      "Crystal Reports",
+      "Visual Studio Extensions (VSIX)"
+    ],
+    ["CI/CD", "Jenkins ", "Docker", "YAML", "AWS", "Azure", "XML"],
+    [
+      "Algorithms",
+      "DataStructures",
+      "Problem Solving",
+      "Analytical Skills",
+      "SignalR",
+      "Google Maps",
+      "Facebook OpenGraph",
+      "ZkTeco SDK",
+      "Secugen SDK"
+    ]
   ],
   "Lang": {
     "More": "More",
@@ -447,12 +524,6 @@
     "Skill2": "Database Technologies.",
     "CheckProfile": "Check My Profile On : ",
     "GetInTouch": "Get In Touch",
-    "MyWork": "My Work",
-    "": "",
-    "": ""
-
-
-
+    "MyWork": "My Work"
   }
-
 }

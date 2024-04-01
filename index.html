@@ -10,7 +10,7 @@
     <title>Hasan Elsherbiny</title>
     <!--css styles-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/lightbox.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
@@ -181,6 +181,15 @@
                                     <ul class="tags">
                                         <li ng-repeat="Skill in Profile.Skills[2]">
                                             <a href="javascript:void(0);">
+                                                {{Skill}} <span><i class="fas fa-infinity"></i></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul class="tags cyan">
+                                        <li ng-repeat="Skill in Profile.Skills[3]">
+                                            <a href="javascript:void(0);">
                                                 {{Skill}} <span><i class="fa fa-wrench"></i></span>
                                             </a>
                                         </li>
@@ -298,10 +307,12 @@
                     <div ng-class="'col-md-6'+($even ? ' left-item' : ' right-item')+($last?' last-item':'')+($first==false?' experience-top-margin':'')" ng-repeat="WorkHistory in Profile.WorkHistory">
                         <div class="experience-item">
                             <div class="experience-circle"></div>
-                            <div class="experience-content">
+                            <div class="experience-content" style="min-height: 470px;">
                                 <h6>{{WorkHistory.Title}}</h6>
+                                <b>{{WorkHistory.Company}}</b>
                                 <p class="range">{{WorkHistory.Date}}</p>
-                                <p>{{WorkHistory.Detail}}</p>
+                                <ul>
+                                <li ng-repeat="detail in WorkHistory.Details" style="list-style: circle;">{{detail}}</li></ul>
                             </div>
                         </div>
                     </div>
@@ -351,11 +362,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 text-center">
-                                    <a class="btn-style1" href="https://www.facebook.com/hassan.elsherbiny55" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a class="btn-style1" href="https://twitter.com/Dev_Hasan55" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#" class="btn-style1">{{Profile.Lang.ViewMyCv}}</a>
-                                    <a class="btn-style1" href="https://api.whatsapp.com/send?phone=201093837356" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                                    <a class="btn-style1" href="https://www.linkedin.com/in/hasan-elsherbiny-624223b4/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a class="btn-style1" href="https://www.facebook.com/hassan.elsherbiny55" target="_blank"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                                    <a class="btn-style1" href="https://twitter.com/Dev_Hasan55" target="_blank"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="/hassan elsherbiny.net-developer.pdf" class="btn-style1">{{Profile.Lang.ViewMyCv}}</a>
+                                    <a class="btn-style1" href="https://api.whatsapp.com/send?phone=201093837356" target="_blank"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+                                    <a class="btn-style1" href="https://www.linkedin.com/in/hasan-elsherbiny-624223b4/" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
                                    
                                 </div>
                             </div>
@@ -373,7 +384,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>Copyright © Hasan Elsherbiny -  Last Edit :  Feb 2020</p>
+                        <p>Copyright © Hasan Elsherbiny -  Last Edit :  Feb 2023</p>
                     </div>
                 </div>
             </div>

@@ -1150,6 +1150,20 @@ footer {
     -webkit-box-shadow: inset 1px 0 #276f9e;
     box-shadow: inset 1px 0 #276f9e;
 }
+.cyan span {
+    background: #00c3ff;
+    border-color: #00c3ff #00c3ff #00c3ff;
+    background-image: -webkit-linear-gradient(top, #13c2ee, #49dbf2);
+    background-image: -moz-linear-gradient(top, #13c2ee, #49dbf2);
+    background-image: -o-linear-gradient(top, #13c2ee, #49dbf2);
+    background-image: linear-gradient(to bottom, #13c2ee, #49dbf2);
+}
+
+.cyan li:after {
+    background: #00c3ff;
+    -webkit-box-shadow: inset 1px 0 #276f9e;
+    box-shadow: inset 1px 0 #276f9e;
+}
 
 .blue span {
     background: #56a3d5;
