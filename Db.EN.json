@@ -394,8 +394,18 @@
       ]
     },
     {
+      "Title": "Co-founder & CTO",
+      "Date": "Nov 2020 - Apr 2022",
+      "Company": "Bits Developments",
+      "Details": [
+        "Oversaw all technical aspects of the company, including infrastructure, development, and deployment.",
+        "Led the development of customers’ apps.",
+        "Managed a team of 20 software engineers and designers."
+      ]
+    },
+    {
       "Title": "Senior .Net Developer",
-      "Date": "Nov 2018 - Apr 2022",
+      "Date": "Nov 2018 - Oct 2020",
       "Company": "Tidal Information Systems",
       "Details": [
         "Rewrote algorithm of Biometric Sign-on Solution resulted in decrease login response time from 15 seconds to 17 milliseconds.",
