@@ -212,7 +212,12 @@
       "Image": "Web_placeholder",
       "Category": "Cpanels"
     },
-
+{
+      "Id": "",
+      "Title": "PowerStore",
+      "Image": "PowerStore",
+      "Category": "ECommerce"
+    },
     {
       "Id": "",
       "Title": "RFF",
@@ -277,6 +282,12 @@
 
     {
       "Id": "",
+      "Title": "MongoDb Tools",
+      "Image": "Web_placeholder",
+      "Category": "Utilites"
+    },
+    {
+      "Id": "",
       "Title": "The WiZaRD",
       "Image": "thewizard",
       "Category": "Utilites"
@@ -285,12 +296,6 @@
       "Id": "",
       "Title": "Offline Installer",
       "Image": "Offline_Installer",
-      "Category": "Utilites"
-    },
-    {
-      "Id": "",
-      "Title": "MongoDb Tools",
-      "Image": "Web_placeholder",
       "Category": "Utilites"
     },
     {
