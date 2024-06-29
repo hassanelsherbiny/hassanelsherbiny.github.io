@@ -17,18 +17,6 @@
   "MoreAbout": "Senior Full-stack .NET Developer with over 8 years of experience, Skilled in creating and refining scalable web applications. My expertise extends to troubleshooting and debugging, allowing me to drive the successful development of a wide range of applications. Specialized in establishing and managing efficient continuous integration and deployment pipelines. Additionally, Proficient in deploying applications to both Linux and Windows environments utilizing IIS and Nginx to ensure seamless operations.",
   "Services": [
     {
-      "Id": "",
-      "Title": "Power Store",
-      "Image": "PowerStore",
-      "Category": "ECommerce"
-    },
-    {
-      "Id": "",
-      "Title": "MongoDb Tools",
-      "Image": "MongoDb_Tools",
-      "Category": "Utilites"
-    },
-    {
       "Title": "Web Developments",
       "Detail": "Professional Web Applications For Commerical And Personal Uses.Applications Are Made Using Asp.Net Core / Asp.net MVC With The Power And Speed Of MongoDB.",
       "Icon": "fa fa-globe",
@@ -49,6 +37,18 @@
   ],
 
   "Portfolio": [
+    {
+      "Id": "",
+      "Title": "Power Store",
+      "Image": "PowerStore",
+      "Category": "ECommerce"
+    },
+    {
+      "Id": "",
+      "Title": "MongoDb Tools",
+      "Image": "MongoDb_Tools",
+      "Category": "Utilites"
+    },
     {
       "Id": "",
       "Title": "TimeAttendance",
