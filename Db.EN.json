@@ -239,7 +239,7 @@
     {
       "Id": "",
       "Title": "ERP EComerce Portal",
-      "Image": "Web_placeholder",
+      "Image": "ERP_Web",
       "Category": "ECommerce"
     },
 
@@ -270,20 +270,20 @@
     {
       "Id": "",
       "Title": "Archiving System Client",
-      "Image": "Web_placeholder",
+      "Image": "Archiving_System",
       "Category": "Desktop"
     },
     {
       "Id": "",
-      "Title": "Chat Room",
-      "Image": "Web_placeholder",
+      "Title": "Chat Rooms",
+      "Image": "Chat_Rooms",
       "Category": "Desktop"
     },
 
     {
       "Id": "",
       "Title": "MongoDb Tools",
-      "Image": "Web_placeholder",
+      "Image": "MongoDb_Tools",
       "Category": "Utilites"
     },
     {
@@ -307,13 +307,13 @@
     {
       "Id": "",
       "Title": "DateTimeX",
-      "Image": "Web_placeholder",
+      "Image": "DateTimeX",
       "Category": "Utilites"
     },
     {
       "Id": "",
       "Title": "Subtitles Tools",
-      "Image": "Web_placeholder",
+      "Image": "Subtitles_Tools",
       "Category": "Utilites"
     },
     {
