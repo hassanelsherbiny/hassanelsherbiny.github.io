@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,31 +23,35 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <!---title logo icon-->
     <link rel="shortcut icon" href="images/Hicon.png" />
-    <script type="text/javascript" src="js/respond.js"></script> 
+    <script type="text/javascript" src="js/respond.js"></script>
     <link rel="alternate" href="https://hassanelsherbiny.github.io/" hreflang="en-us" />
     <meta name="description" content="Hasan Elsherbiny Professional .Net Developer Who Can Develop Web,Desktop And Mobile Applications And Worked On Many Projects Since 2013 Until Now .Check My Portfolio With Full List Of Projects I have Done So Far" />
     <meta property="og:title" content="Hasan Elsherbiny Professional .Net Developer" />
     <meta property="og:description" content="Hasan Elsherbiny Professional .Net Developer Who Can Develop Web,Desktop And Mobile Applications And Worked On Many Projects Since 2013 Until Now." />
-    <meta property="og:url" content='https://hassanelsherbiny.github.io/' /> 
-    <meta property="business:contact_data" content='https://hassanelsherbiny.github.io/' /> 
-    <meta property="business:contact_data:country_name" content="Egypt" /> 
+    <meta property="og:url" content='https://hassanelsherbiny.github.io/' />
+    <meta property="business:contact_data" content='https://hassanelsherbiny.github.io/' />
+    <meta property="business:contact_data:country_name" content="Egypt" />
     <meta property="og:image" content="https://hassanelsherbiny.github.io/images/hassan-elsherbiny.jpg" />
 
     <script>
-
-        (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-84157847-1', 'auto');
         ga('send', 'pageview');
-
     </script>
 
 </head>
+
 <body ng-app="Basic" ng-controller="ProfileNg">
     <!-- Start Preloader -->
     <div class="preloader">
@@ -59,7 +64,7 @@
     </div>
     <!-- End scroll-top button -->
     <!--Start Header-->
-    <header  itemscope itemtype="https://schema.org/Person">
+    <header itemscope itemtype="https://schema.org/Person">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -106,7 +111,7 @@
 
                                 <a href="https://api.whatsapp.com/send?phone=201093837356" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                                 <a href="https://www.linkedin.com/in/hasan-elsherbiny-624223b4/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                                <a href="mailto:{{Profile.Email}}" target="_blank"><i class="fab fa-envelope"></i></a>
+                                <a href="mailto:{{Profile.Email}}" target="_blank"><i class="fa fa-envelope"></i></a>
 
                             </div>
                         </div>
@@ -124,11 +129,17 @@
                         <a href="https://stackoverflow.com/users/7621536/hasan-elsherbiny" target="_blank">
                             <img src="https://stackoverflow.com/users/flair/7621536.png" width="208" height="58" alt="profile for Hasan Elsherbiny at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Hasan Elsherbiny at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
                         </a>
-                        <a href="https://github.com/hassanelsherbiny" target="_blank" class='portofolio'>
-                            <img src="/images/github.png" />
-                        </a> 
-                        <a href="https://www.upwork.com/o/profiles/users/~0117a6e4d7013a7cdb/" target="_blank" class='portofolio'>
-                            <img src="/images/upwork.png" />
+                        <a href="https://github.com/hassanelsherbiny" target="_blank" class="portofolio">
+                            <img src="/images/github.png" alt="Github" />
+                        </a>
+                        <a href="https://www.upwork.com/o/profiles/users/~0117a6e4d7013a7cdb/" target="_blank" class="portofolio">
+                            <img src="/images/upwork.png" alt="UpWork" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/hasan-elsherbiny-624223b4/" target="_blank" class="portofolio lnkdIn">
+                            <img src="/images/linkedin.png" alt="LinkedIn" />
+                        </a>
+                        <a href="https://dev.to/hasanelsherbiny" target="_blank" class="portofolio devTo">
+                            <img src="/images/devTo.png" alt="DevTo" />
                         </a>
                     </div>
                 </div>
@@ -166,7 +177,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </p> 
+                                </p>
                                 <p>
                                     <ul class="tags green">
                                         <li ng-repeat="Skill in Profile.Skills[1]">
@@ -234,7 +245,7 @@
                 {{Profile.Lang.MyWork}}
                 <span class="pull-right lgView">
                     <span ng-click="ToggleThumb(false);"><i class="fa fa-list"></i></span>
-                    <span ng-click="ToggleThumb(true);"><i class="fa fa-th-large"></i></span>
+                <span ng-click="ToggleThumb(true);"><i class="fa fa-th-large"></i></span>
                 </span>
             </h4>
         </div>
@@ -258,7 +269,8 @@
                                         <a href="javascript:void(0);">
                                             <div class="portfolio-img">
                                                 <!--<img src="https://res.cloudinary.com/bitsdevelopments/image/upload/v1581007120/CV/{{Portfolio.Image}}" alt="portfolio" class="img-responsive">-->
-                                                <img ng-src="https://res.cloudinary.com/bitsdevelopments/image/upload/c_limit,h_200,w_200/v1581007120/cv/{{Portfolio.Image}}" style="height:100%;width:100%" class="img-responsive" title="hasan elsherbiny-{{Portfolio.Title}}" alt="hasan elsherbiny-{{Portfolio.Title}}" />
+                                                <img ng-src="https://res.cloudinary.com/bitsdevelopments/image/upload/c_limit,h_200,w_200/v1581007120/cv/{{Portfolio.Image}}" style="height:100%;width:100%" class="img-responsive" title="hasan elsherbiny-{{Portfolio.Title}}" alt="hasan elsherbiny-{{Portfolio.Title}}"
+                                                />
                                             </div>
                                             <div class="portfolio-overlay">
                                                 <p class="category">{{Portfolio.Title}}</p>
@@ -311,7 +323,8 @@
                                 <b>{{WorkHistory.Company}}</b>
                                 <p class="range">{{WorkHistory.Date}}</p>
                                 <ul>
-                                <li ng-repeat="detail in WorkHistory.Details" style="list-style: circle;">{{detail}}</li></ul>
+                                    <li ng-repeat="detail in WorkHistory.Details" style="list-style: circle;">{{detail}}</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -366,7 +379,7 @@
                                     <a href="/hassan elsherbiny.net-developer.pdf" class="btn-style1">{{Profile.Lang.ViewMyCv}}</a>
                                     <a class="btn-style1" href="https://api.whatsapp.com/send?phone=201093837356" target="_blank"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
                                     <a class="btn-style1" href="https://www.linkedin.com/in/hasan-elsherbiny-624223b4/" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -383,7 +396,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>Copyright © Hasan Elsherbiny -  Last Edit :  Feb 2023</p>
+                        <p>Copyright © Hasan Elsherbiny - Last Edit : Feb 2024</p>
                     </div>
                 </div>
             </div>
