@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkEmployeeInfoReview=self.webpackChunkEmployeeInfoReview||[]).push([[83100],{83100:(u,a,n)=>{n.r(a),n.d(a,{default:()=>s});const e=void 0,s=[[["tengah malam","tengah hari","pagi","siang","sore","malam"],e,e],e,["00:00","12:00",["00:00","10:00"],["10:00","15:00"],["15:00","18:00"],["18:00","24:00"]]]}}]);

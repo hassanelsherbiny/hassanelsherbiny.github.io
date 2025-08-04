@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkEmployeeInfoReview=self.webpackChunkEmployeeInfoReview||[]).push([[42891],{42891:(s,u,k)=>{k.r(u),k.d(u,{default:()=>n});const e=void 0,n=[[["kuty-si","kur\xe3-kuju","kus\xe3g ki","r\xe3k\xe3nh k\u1ef9","kuty k\u1ef9","kur\xe3 ge"],e,e],e,["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]]}}]);

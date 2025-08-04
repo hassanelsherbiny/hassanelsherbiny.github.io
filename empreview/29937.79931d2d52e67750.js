@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkEmployeeInfoReview=self.webpackChunkEmployeeInfoReview||[]).push([[29937],{29937:(a,u,n)=>{n.r(u),n.d(u,{default:()=>s});const e=void 0,s=[[["yarim tun","tush payti","ertalab","kunduzi","kechqurun","kechasi"],e,e],e,["00:00","12:00",["06:00","11:00"],["11:00","18:00"],["18:00","22:00"],["22:00","06:00"]]]}}]);

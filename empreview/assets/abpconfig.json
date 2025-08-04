@@ -1,0 +1,285 @@
+{
+    "result": {
+        "multiTenancy": {
+            "isEnabled": true,
+            "ignoreFeatureCheckForHostUsers": false,
+            "sides": {
+                "host": 2,
+                "tenant": 1
+            }
+        },
+        "session": {
+            "userId": null,
+            "tenantId": null,
+            "impersonatorUserId": null,
+            "impersonatorTenantId": null,
+            "multiTenancySide": 2
+        },
+        "localization": {
+            "currentCulture": {
+                "name": "ar",
+                "displayName": "العربية"
+            },
+            "languages": [
+                {
+                    "name": "ar",
+                    "displayName": "العربية",
+                    "icon": "famfamfam-flags sa",
+                    "isDefault": true,
+                    "isDisabled": false,
+                    "isRightToLeft": true
+                },
+                {
+                    "name": "en",
+                    "displayName": "English",
+                    "icon": "famfamfam-flags us",
+                    "isDefault": false,
+                    "isDisabled": false,
+                    "isRightToLeft": false
+                }
+            ],
+            "currentLanguage": {
+                "name": "ar",
+                "displayName": "العربية",
+                "icon": "famfamfam-flags sa",
+                "isDefault": true,
+                "isDisabled": false,
+                "isRightToLeft": true
+            },
+            "sources": [
+                {
+                    "name": "Abp",
+                    "type": "MultiTenantLocalizationSource"
+                },
+                {
+                    "name": "AbpWeb",
+                    "type": "MultiTenantLocalizationSource"
+                },
+                {
+                    "name": "AbpZero",
+                    "type": "MultiTenantLocalizationSource"
+                },
+                {
+                    "name": "EmployeeInfoReview",
+                    "type": "MultiTenantLocalizationSource"
+                }
+            ],
+            "values": {
+                "Abp": {
+                    "AllOfTheseFeaturesMustBeEnabled": "الميزات المطلوبة غير ممكّنة. يجب تمكين كل هذه الميزات: {0}",
+                    "AllOfThesePermissionsMustBeGranted": "لم يتم منح التصاريح المطلوبة. يجب أن يتم منح كل من هذه التصاريح: {0}",
+                    "AtLeastOneOfTheseFeaturesMustBeEnabled": "الميزات المطلوبة غير ممكّنة. يجب تمكين واحدة على الأقل من هذه الميزات: {0}",
+                    "AtLeastOneOfThesePermissionsMustBeGranted": "لم يتم منح التصاريح المطلوبة. يجب منح واحد على الأقل من هذه التصاريح: {0}",
+                    "CurrentUserDidNotLoginToTheApplication": "المستخدم الحالي لم يسجيل الدخول إلى البرنامج!",
+                    "DefaultFromSenderDisplayName": "الاسم الافتراضي للمرسل",
+                    "DefaultFromSenderEmailAddress": "عنوان البريد الإلكتروني الافتراضي للمرسل",
+                    "DefaultLanguage": "اللغة الافتراضية",
+                    "DomainName": "اسم النطاق",
+                    "FeatureIsNotEnabled": "لم يتم تمكين الميزة: {0}",
+                    "MainMenu": "القائمة الرئيسية",
+                    "Password": "كلمة المرور",
+                    "ReceiveNotifications": "استلام الإشعارات",
+                    "SmtpHost": "خادم SMTP",
+                    "SmtpPort": "منفذ SMTP",
+                    "TimeZone": "المنطقة الزمنية",
+                    "UseDefaultCredentials": "استخدام بيانات الدخول الافتراضية",
+                    "Username": "اسم المستخدم",
+                    "UseSSL": "استخدام SSL"
+                },
+                "AbpWeb": {
+                    "AreYouSure": "هل أنت متأكد؟",
+                    "Cancel": "إلغاء",
+                    "DefaultError": "حدث خطأ!",
+                    "DefaultError401": "أنت غير مسجل!",
+                    "DefaultError403": "لا تملك الصلاحية!",
+                    "DefaultError404": "لم يتم العثور على المورد!",
+                    "DefaultErrorDetail": "تفاصيل الخطأ لم ترسل من قبل خادم.",
+                    "DefaultErrorDetail401": "يجب عليك تسجيل الدخول من أجل تنفيذ هذه العملية.",
+                    "DefaultErrorDetail403": "لا يسمح لك بتنفيذ هذه العملية.",
+                    "DefaultErrorDetail404": "تعذر العثور على المورد المطلوب على الخادم.",
+                    "EntityNotFound": "لا يوجد كيان {0} بهوية = {1}!",
+                    "InternalServerError": "حدث خطأ داخلي أثناء تنفيذ طلبك!",
+                    "ValidationError": "طلبك غير صحيح!",
+                    "ValidationNarrativeTitle": "تم اكتشاف الأخطاء التالية أثناء التحقق من صحة الطلب.",
+                    "Yes": "نعم"
+                },
+                "AbpZero": {
+                    "CanNotDeleteAdminUser": "لا يمكن حذف المستخدم {0} لأن هذا هو المستخدم المشرف الافتراضي!",
+                    "CanNotDeleteStaticRole": "لا يمكن حذف دور ثابت: {0}",
+                    "CanNotRenameAdminUser": "لا يمكن إعادة تسمية اسم المستخدم من {0} لأن هذا هو المستخدم المسؤول الافتراضي!",
+                    "Email": "البريد الإلكتروني",
+                    "EmailSecurityCodeBody": "رمز الحماية الخاص بك هو: {0}",
+                    "EmailSecurityCodeSubject": "رمز الحماية",
+                    "Identity.ConcurrencyFailure": "فشل التزامن الأمثل، تم تعديل الكائن.",
+                    "Identity.DefaultError": "حدث فشل غير معروف.",
+                    "Identity.DuplicateEmail": "البريد الإلكتروني '{0}' مستخدم بالفعل.",
+                    "Identity.DuplicateRoleName": "اسم الدور '{0}' مأخوذ بالفعل.",
+                    "Identity.DuplicateUserName": "اسم المستخدم '{0}' مأخوذ بالفعل.",
+                    "Identity.ExternalLoginExists": "هناك مستخدم لديه نفس معلومات تسجيل دخول خارجية.",
+                    "Identity.InvalidEmail": "البريد الإلكتروني '{0}' غير صالح.",
+                    "Identity.InvalidPasswordHasherCompatibilityMode": "وضع التوافق المتوفر لمشفر كلمة المرور غير صالح.",
+                    "Identity.InvalidPasswordHasherIterationCount": "يجب أن يكون عدد التكرار عددا صحيحا موجبا.",
+                    "Identity.InvalidRoleName": "اسم الدور '{0}' غير صالح.",
+                    "Identity.InvalidToken": "الرمز المميز غير صالح.",
+                    "Identity.InvalidUserName": "اسم المستخدم {0} غير صالح، يمكن أن يحتوي فقط على أحرف أو أرقام.",
+                    "Identity.PasswordMismatch": "كلمة المرور غير متوافقة",
+                    "Identity.PasswordRequireDigit": "يجب أن تحتوي كلمات المرور على رقم واحد على الأقل ('0' - '9').",
+                    "Identity.PasswordRequireLower": "يجب أن تحتوي كلمات المرور على حرف صغير واحد على الأقل ('a' - 'z').",
+                    "Identity.PasswordRequireNonAlphanumeric": "يجب أن تحتوي كلمة المرور على حرف خاص أو رقم على الأقل.",
+                    "Identity.PasswordRequireUpper": "يجب أن تحتوي كلمات المرور على حرف واحد كبير على الأقل ('A' - 'Z').",
+                    "Identity.PasswordTooShort": "يجب أن تكون كلمات المرور {0} حرفا على الأقل.",
+                    "Identity.RoleNotFound": "الدور {0} غير موجود.",
+                    "Identity.UserAlreadyHasPassword": "لدى المستخدم بالفعل كلمة مرور محددة.",
+                    "Identity.UserAlreadyInRole": "المستخدم بالفعل منضم للدور '{0}'.",
+                    "Identity.UserLockedOut": "تم غلق المستخدم.",
+                    "Identity.UserLockoutNotEnabled": "لم يتم تمكين الغلق لهذا المستخدم.",
+                    "Identity.UserNameNotFound": "المستخدم {0} غير موجود.",
+                    "Identity.UserNotInRole": "المستخدم ليس منضم للدور.",
+                    "InvalidFeatureValue": "{0} قيمة الميزة غير صالحة!",
+                    "InvalidTenancyName": "اسم الإيجار غير صالح!",
+                    "OrganizationUnitDuplicateDisplayNameWarning": "هناك بالفعل وحدة تنظيمية باسم {0}. لا يمكن إنشاء وحدتين بنفس الاسم في نفس المستوى.",
+                    "RoleDisplayNameIsAlreadyTaken": "اسم العرض للدور {0} مأخوذ بالفعل.",
+                    "RoleNameIsAlreadyTaken": "اسم الدور {0} مأخوذ بالفعل.",
+                    "Sms": "رسالة قصيرة",
+                    "SmsSecurityCodeMessage": "رمز الحماية الخاص بك هو: {0}",
+                    "TenancyNameIsAlreadyTaken": "اسم الإيجار {0} مأخوذ بالفعل."
+                },
+                "EmployeeInfoReview": {
+                    "academic_certificates": "الشهادات الاكاديمية",
+                    "building_no_SP": "رقم المبنى",
+                    "city_name_SP": "المدينة",
+                    "clearance": "اخلاء الطرف",
+                    "Clearance": "إخلاء الطرف",
+                    "country_certif_SP": "الدولة",
+                    "course_name_Institute_SP": "اسم الدورة",
+                    "Date_h_birth_ID_SP": "تاريخ الميلاد هجري",
+                    "date_h_certif_SP": "تاريخ التخرج هجري",
+                    "date_h_Clear_request_SP": "تاريخ شهادة لإخلاء الهجري",
+                    "date_h_Course_Institute_SP": "تاريخ بداية الدورة هجري",
+                    "date_h_end_Course_Institute_SP": "تاريخ نهاية الدورة هجري",
+                    "date_m_certif_SP": "تاريخ التخرج ميلادي",
+                    "date_M_Course_Institute_SP": "تاريخ بداية الدورة ميلادي",
+                    "date_M_end_Course_Institute_SP": "تاريخ نهاية الدورة ميلادي",
+                    "degree_certif_SP": "الدرجة",
+                    "equation_certif_SP": "المعادلة",
+                    "exist_certif_sal_SP": "هل توجد شهادة",
+                    "experience_certificate": "شهادة الخبرة",
+                    "ExperinceCertificate": "شهادة الخبرة",
+                    "family_card": "كرت العائلة للموظف",
+                    "FamilyMembers": "افراد العائلة",
+                    "id_family_member_SP": "تسلسل التابع",
+                    "ID_No_parents_SP": "رقم الهوية",
+                    "ID_No_SP": "رقم الهوية",
+                    "job_desc_Establish_certi_sp": "المسمى الوظيفي",
+                    "name_Establish_certi_SP": "اسم المنشأة",
+                    "name_family_member_SP": "اسم التابع",
+                    "name_Institute_SP": "اسم المعهد",
+                    "national_address": "العنوان الوطني",
+                    "national_id": "الهوية الوطنية",
+                    "NationlId": "الهوية الوطنية",
+                    "neighbordhood_SP": "الحي",
+                    "no_of_hourse_course_SP": "عدد ساعات الدورة",
+                    "OfficialInfo": "بيانات عامة",
+                    "Page_no_eqa_certif_sp": "رقم صفحة المعادلة",
+                    "parents_id_copy": "صورة من هوية الوالدين",
+                    "Passport": "جواز السفر",
+                    "passport_copy": "صورة من جواز السفر",
+                    "passport_no_SP": "رقم الجواز",
+                    "Passport_type_SP": "نوع الجواز",
+                    "period_Course_SP": "المدة",
+                    "Previous": "السابق",
+                    "rate_degree_certif_SP": "درجة المعدل",
+                    "rate_type_certif_SP": "نوع المعدل",
+                    "ReviewDoneNext": "تم المراجعة - التالي",
+                    "ReviewDoneSend": "تم المراجعة - إرسال",
+                    "ReviewNote": "برجاء مراجعة البيانات التالية",
+                    "ReviewSent": "تم المراجعة و إرسال البيانات بنجاح",
+                    "SaveDraft": "حفظ مسودة",
+                    "service_salary_certificate": "شهادة المدد والأجور",
+                    "ServiceandSalaryCertificate": "شهادة المدد والأجور",
+                    "short_title_SP": "العنوان المختصر",
+                    "speci_certif_SP": "التخصص",
+                    "street_name_SP": "الشارع",
+                    "sub_code_SP": "الرمز الفرعي",
+                    "training_courses": "الدورات التدريبية",
+                    "Type_course_Institute_sp": "تصنيف الدورة",
+                    "Type_Parents_SP": "صلة القربى ( الوالد - الوالدة)",
+                    "univ_certif_SP": "الجامعة",
+                    "zip_code_SP": "الرمز البريدي"
+                }
+            }
+        },
+        "features": {
+            "allFeatures": {}
+        },
+        "auth": {
+            "allPermissions": {
+                "Pages.Users": "true",
+                "Pages.Users.Activation": "true",
+                "Pages.Roles": "true",
+                "Pages.Tenants": "true"
+            },
+            "grantedPermissions": {}
+        },
+        "nav": {
+            "menus": {
+                "MainMenu": {
+                    "name": "MainMenu",
+                    "displayName": "القائمة الرئيسية",
+                    "customData": null,
+                    "items": []
+                }
+            }
+        },
+        "setting": {
+            "values": {
+                "Abp.Localization.DefaultLanguageName": "ar",
+                "Abp.Notifications.ReceiveNotifications": "true",
+                "Abp.Timing.TimeZone": "UTC",
+                "Abp.Zero.UserManagement.IsEmailConfirmationRequiredForLogin": "false",
+                "Abp.Zero.OrganizationUnits.MaxUserMembershipCount": "2147483647",
+                "Abp.Zero.UserManagement.TwoFactorLogin.IsEnabled": "true",
+                "Abp.Zero.UserManagement.TwoFactorLogin.IsRememberBrowserEnabled": "true",
+                "Abp.Zero.UserManagement.TwoFactorLogin.IsEmailProviderEnabled": "true",
+                "Abp.Zero.UserManagement.TwoFactorLogin.IsSmsProviderEnabled": "true",
+                "Abp.Zero.UserManagement.UserLockOut.IsEnabled": "true",
+                "Abp.Zero.UserManagement.UserLockOut.MaxFailedAccessAttemptsBeforeLockout": "5",
+                "Abp.Zero.UserManagement.UserLockOut.DefaultAccountLockoutSeconds": "300",
+                "Abp.Zero.UserManagement.PasswordComplexity.RequireDigit": "false",
+                "Abp.Zero.UserManagement.PasswordComplexity.RequireLowercase": "false",
+                "Abp.Zero.UserManagement.PasswordComplexity.RequireNonAlphanumeric": "false",
+                "Abp.Zero.UserManagement.PasswordComplexity.RequireUppercase": "false",
+                "Abp.Zero.UserManagement.PasswordComplexity.RequiredLength": "6",
+                "App.UiTheme": "red"
+            }
+        },
+        "clock": {
+            "provider": "unspecifiedClockProvider"
+        },
+        "timing": {
+            "timeZoneInfo": {
+                "windows": {
+                    "timeZoneId": "UTC",
+                    "baseUtcOffsetInMilliseconds": 0,
+                    "currentUtcOffsetInMilliseconds": 0,
+                    "isDaylightSavingTimeNow": false
+                },
+                "iana": {
+                    "timeZoneId": "Etc/UTC"
+                }
+            }
+        },
+        "security": {
+            "antiForgery": {
+                "tokenCookieName": "XSRF-TOKEN",
+                "tokenHeaderName": "X-XSRF-TOKEN"
+            }
+        },
+        "custom": {}
+    },
+    "targetUrl": null,
+    "success": true,
+    "error": null,
+    "unAuthorizedRequest": false,
+    "__abp": true
+}

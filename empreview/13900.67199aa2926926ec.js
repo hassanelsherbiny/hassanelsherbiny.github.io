@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkEmployeeInfoReview=self.webpackChunkEmployeeInfoReview||[]).push([[13900],{13900:(p,n,o)=>{o.r(n),o.d(n,{default:()=>u});const e=void 0,u=[[["pono\u0107","podne","ujutro","poslijepodne","nave\u010der","po no\u0107i"],e,e],e,["00:00","12:00",["04:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","04:00"]]]}}]);
