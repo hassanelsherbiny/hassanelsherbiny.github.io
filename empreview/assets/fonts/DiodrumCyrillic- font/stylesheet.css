@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Diodrum Cyrillic';
+    src: url('DiodrumCyrillic-Medium.eot');
+    src: local('Diodrum Cyrillic Medium'), local('DiodrumCyrillic-Medium'),
+        url('DiodrumCyrillic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DiodrumCyrillic-Medium.woff2') format('woff2'),
+        url('DiodrumCyrillic-Medium.woff') format('woff'),
+        url('DiodrumCyrillic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Diodrum Cyrillic';
+    src: url('DiodrumCyrillic-Bold.eot');
+    src: local('Diodrum Cyrillic Bold'), local('DiodrumCyrillic-Bold'),
+        url('DiodrumCyrillic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DiodrumCyrillic-Bold.woff2') format('woff2'),
+        url('DiodrumCyrillic-Bold.woff') format('woff'),
+        url('DiodrumCyrillic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Diodrum';
+    src: url('DiodrumCyrillic-Extralight.eot');
+    src: local('Diodrum Cyrillic Extralight'), local('DiodrumCyrillic-Extralight'),
+        url('DiodrumCyrillic-Extralight.eot?#iefix') format('embedded-opentype'),
+        url('DiodrumCyrillic-Extralight.woff2') format('woff2'),
+        url('DiodrumCyrillic-Extralight.woff') format('woff'),
+        url('DiodrumCyrillic-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Diodrum Cyrillic';
+    src: url('DiodrumCyrillic-Semibold.eot');
+    src: local('Diodrum Cyrillic Semibold'), local('DiodrumCyrillic-Semibold'),
+        url('DiodrumCyrillic-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('DiodrumCyrillic-Semibold.woff2') format('woff2'),
+        url('DiodrumCyrillic-Semibold.woff') format('woff'),
+        url('DiodrumCyrillic-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Diodrum Cyrillic';
+    src: url('DiodrumCyrillic-Regular.eot');
+    src: local('Diodrum Cyrillic Regular'), local('DiodrumCyrillic-Regular'),
+        url('DiodrumCyrillic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DiodrumCyrillic-Regular.woff2') format('woff2'),
+        url('DiodrumCyrillic-Regular.woff') format('woff'),
+        url('DiodrumCyrillic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Diodrum Cyrillic';
+    src: url('DiodrumCyrillic-Light.eot');
+    src: local('Diodrum Cyrillic Light'), local('DiodrumCyrillic-Light'),
+        url('DiodrumCyrillic-Light.eot?#iefix') format('embedded-opentype'),
+        url('DiodrumCyrillic-Light.woff2') format('woff2'),
+        url('DiodrumCyrillic-Light.woff') format('woff'),
+        url('DiodrumCyrillic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+

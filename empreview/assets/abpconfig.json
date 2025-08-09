@@ -10,10 +10,10 @@
         },
         "session": {
             "userId": null,
-            "tenantId": null,
+            "tenantId": 1,
             "impersonatorUserId": null,
             "impersonatorTenantId": null,
-            "multiTenancySide": 2
+            "multiTenancySide": 1
         },
         "localization": {
             "currentCulture": {
@@ -146,6 +146,7 @@
                 },
                 "EmployeeInfoReview": {
                     "academic_certificates": "الشهادات الاكاديمية",
+                    "AddNew": "إضافة جديد",
                     "building_no_SP": "رقم المبنى",
                     "city_name_SP": "المدينة",
                     "clearance": "اخلاء الطرف",
@@ -161,6 +162,7 @@
                     "date_M_Course_Institute_SP": "تاريخ بداية الدورة ميلادي",
                     "date_M_end_Course_Institute_SP": "تاريخ نهاية الدورة ميلادي",
                     "degree_certif_SP": "الدرجة",
+                    "DraftSaved": "تم حفظ مسودة بنجاح.",
                     "equation_certif_SP": "المعادلة",
                     "exist_certif_sal_SP": "هل توجد شهادة",
                     "experience_certificate": "شهادة الخبرة",
@@ -171,6 +173,7 @@
                     "ID_No_parents_SP": "رقم الهوية",
                     "ID_No_SP": "رقم الهوية",
                     "job_desc_Establish_certi_sp": "المسمى الوظيفي",
+                    "Logout": "تسجيل خروج",
                     "name_Establish_certi_SP": "اسم المنشأة",
                     "name_family_member_SP": "اسم التابع",
                     "name_Institute_SP": "اسم المعهد",
@@ -190,8 +193,11 @@
                     "Previous": "السابق",
                     "rate_degree_certif_SP": "درجة المعدل",
                     "rate_type_certif_SP": "نوع المعدل",
-                    "ReviewDoneNext": "تم المراجعة - التالي",
-                    "ReviewDoneSend": "تم المراجعة - إرسال",
+                    "Remove": "حذف",
+                    "Restore": "إستعادة",
+                    "ReviewDoneNext": "التالي",
+                    "ReviewDoneSend": "إرسال",
+                    "Reviewed": "تم المراجعة",
                     "ReviewNote": "برجاء مراجعة البيانات التالية",
                     "ReviewSent": "تم المراجعة و إرسال البيانات بنجاح",
                     "SaveDraft": "حفظ مسودة",
@@ -199,12 +205,14 @@
                     "ServiceandSalaryCertificate": "شهادة المدد والأجور",
                     "short_title_SP": "العنوان المختصر",
                     "speci_certif_SP": "التخصص",
+                    "StepsNotReviewd": "برجاء الضغط على تم المراجعة لكل الخطوات",
                     "street_name_SP": "الشارع",
                     "sub_code_SP": "الرمز الفرعي",
                     "training_courses": "الدورات التدريبية",
                     "Type_course_Institute_sp": "تصنيف الدورة",
                     "Type_Parents_SP": "صلة القربى ( الوالد - الوالدة)",
                     "univ_certif_SP": "الجامعة",
+                    "UploadAttachment": "إضافة مرفق",
                     "zip_code_SP": "الرمز البريدي"
                 }
             }
@@ -260,8 +268,8 @@
             "timeZoneInfo": {
                 "windows": {
                     "timeZoneId": "UTC",
-                    "baseUtcOffsetInMilliseconds": 0,
-                    "currentUtcOffsetInMilliseconds": 0,
+                    "baseUtcOffsetInMilliseconds": 0.0,
+                    "currentUtcOffsetInMilliseconds": 0.0,
                     "isDaylightSavingTimeNow": false
                 },
                 "iana": {

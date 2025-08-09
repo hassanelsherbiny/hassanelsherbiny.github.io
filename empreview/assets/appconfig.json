@@ -1,6 +1,14 @@
 {
   "remoteServiceBaseUrl": "https://localhost:44311",
   "appBaseUrl": "http://localhost:4200",
+   "oAuthConfig": {
+    "issuer": "https://sso.dev.mim.gov.sa", 
+    "redirectUri": "http://localhost:4200",
+    "clientId": "ParticipatoryServices", 
+    "responseType": "code",
+    "scope": "openid offline_access profile ParticipatoryServices",
+    "requireHttps": false
+  },
   "localeMappings": [
     {
       "from": "pt-BR",
